@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background-image: url(./imgs/espacio.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+
+header{
+    width: 100%;
+    height: 70px;
+    background: linear-gradient(#002439,#005066,#4e7988);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+#input_character{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button{
+    border-radius: 5px;
+    background-color: #78cce2;
+    height: 30px;
+    width: 70px;
+}
+
+.titulo_container{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    color: white;
+    margin-top: 50px;
+}
+
+.container_personajes{
+    width: 100%;
+    margin: auto;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around; 
+}
+
+
+
+img{
+    height: 50vh;
+}
+
+.container_personajes ul{
+    display: flex;
+    padding: 0;
+    margin-top: 50px;
+    
+    
+}
+
+.container_personajes li{
+    width: 100%;
+    list-style: none;
+    margin: 0px 70px;
+
+    
+}
+
+
+
+
+.container_result{
+ 
+width: 100%;
+height: 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.resultado{
+   
+    text-align: center;
+    font-size: 20px;
+    color:whitesmoke;
+    font-weight: bolder;
+    
+}
